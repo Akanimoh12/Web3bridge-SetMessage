@@ -31,7 +31,7 @@ function App() {
         console.log("Transaction successful:", txReceipt);
         alert("Message set successfully!");
       } else {
-        console.error("MetaMask not found. Please install MetaMask.");
+        // console.error("MetaMask not found. Please install MetaMask.");
         alert("MetaMask not found. Please install MetaMask.");
       }
     } catch (error) {
@@ -48,7 +48,7 @@ function App() {
         const message = await contract.getMessage();
         setCurrentMessage(message);
       } else {
-        console.error("MetaMask not found. Please install MetaMask.");
+        // console.error("MetaMask not found. Please install MetaMask.");
         alert("MetaMask not found. Please install MetaMask.");
       }
     } catch (error) {
